@@ -89,6 +89,27 @@ export type InfoLdg = {
   list: InfoList[];
 };
 
+export type Feature = {
+  title: string;
+  description: string;
+  icon?: keyof typeof Icons;
+  link?: string;
+};
+
+export type FeaturesConfig = {
+  section: {
+    label: string;
+    title: string;
+    subtitle: string;
+  };
+  card: {
+    showIcon: boolean;
+    showTitle: boolean;
+    linkText?: string;
+    icon?: keyof typeof Icons;
+  };
+};
+
 // compare plans
 export type ColumnType = string | boolean | null;
 export type PlansRow = { feature: string; tooltip?: string } & {

@@ -1,4 +1,4 @@
-import { SidebarNavItem, SiteConfig } from "types";
+import { FeaturesConfig, SidebarNavItem, SiteConfig } from "types";
 import { env } from "@/env.mjs";
 
 const site_url = env.NEXT_PUBLIC_APP_URL;
@@ -14,6 +14,21 @@ export const siteConfig: SiteConfig = {
     github: "https://github.com/mickasmt/next-saas-stripe-starter",
   },
   mailSupport: "support@saas-starter.com",
+};
+
+export const featuresConfig: FeaturesConfig = {
+  section: {
+    label: "Features",
+    title: "Discover all features.",
+    subtitle:
+      "Harum quae dolore inventore repudiandae? orrupti aut temporibus ariatur.",
+  },
+  card: {
+    showIcon: true,
+    showTitle: true,
+    linkText: "Read more",
+    icon: "chevronRight",
+  },
 };
 
 export const footerLinks: SidebarNavItem[] = [
