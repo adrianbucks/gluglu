@@ -31,7 +31,7 @@ export default function Features() {
               const CardIcon = Icons[feature.icon || "logo"];
               const CardLinkText = featuresConfig.card.linkText || "Read More";
               const CardLinkIcon =
-                Icons[featuresConfig.card.icon || "chevronRight"];
+                Icons[featuresConfig.card.linkIcon || "chevronRight"];
               return (
                 <Card key={feature.title}>
                   <CardHeader>

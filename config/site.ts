@@ -27,7 +27,7 @@ export const featuresConfig: FeaturesConfig = {
     showIcon: true,
     showTitle: true,
     linkText: "Read more",
-    icon: "chevronRight",
+    linkIcon: "chevronRight",
   },
 };
 

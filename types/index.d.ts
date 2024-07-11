@@ -106,7 +106,7 @@ export type FeaturesConfig = {
     showIcon: boolean;
     showTitle: boolean;
     linkText?: string;
-    icon?: keyof typeof Icons;
+    linkIcon?: keyof typeof Icons;
   };
 };
 
