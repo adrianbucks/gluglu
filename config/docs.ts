@@ -29,8 +29,8 @@ export const docsConfig: DocsConfig = {
       title: "Configuration",
       items: [
         {
-          title: "Authentification",
-          href: "/docs/configuration/authentification",
+          title: "Authentication",
+          href: "/docs/configuration/authentication",
         },
         {
           title: "Blog",

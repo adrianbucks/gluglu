@@ -89,24 +89,22 @@ export type InfoLdg = {
   list: InfoList[];
 };
 
-export type Feature = {
+export type FeatureCard = {
   title: string;
   description: string;
   icon?: keyof typeof Icons;
-  link?: string;
+  href?: string;
 };
 
-export type FeaturesConfig = {
-  section: {
-    label: string;
-    title: string;
-    subtitle: string;
-  };
+export type FeaturesSection = {
+  label: string;
+  title: string;
+  subtitle: string;
   card: {
     showIcon: boolean;
     showTitle: boolean;
-    linkText?: string;
-    linkIcon?: keyof typeof Icons;
+    ctaText?: string;
+    ctaIcon?: keyof typeof Icons;
   };
 };
 

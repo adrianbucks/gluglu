@@ -4,23 +4,24 @@ export const infos: InfoLdg[] = [
   {
     title: "Empower your projects",
     description:
-      "Unlock the full potential of your projects with our open-source SaaS platform. Collaborate seamlessly, innovate effortlessly, and scale limitlessly.",
+      "Unlock the full potential of your projects with Gluglu AI generative content power. Structure seamlessly, generate content effortlessly, and personalize limitlessly.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
-        title: "Collaborative",
-        description: "Work together with your team members in real-time.",
+        title: "Structure",
+        description: "Generate your project structure with ease.",
         icon: "laptop",
       },
       {
-        title: "Innovative",
-        description: "Stay ahead of the curve with access constant updates.",
+        title: "Generate",
+        description:
+          "Generate content effortlessly with the AI power of Gluglu.",
         icon: "settings",
       },
       {
-        title: "Scalable",
+        title: "Personalize",
         description:
-          "Our platform offers the scalability needed to adapt to your needs.",
+          "Personalize your content to fit your needs with no limitations.",
         icon: "search",
       },
     ],
@@ -28,24 +29,25 @@ export const infos: InfoLdg[] = [
   {
     title: "Seamless Integration",
     description:
-      "Integrate our open-source SaaS seamlessly into your existing workflows. Effortlessly connect with your favorite tools and services for a streamlined experience.",
+      "Integrate academic sources seamlessly into your project. Effortlessly discover the thought process used for content generation for a streamlined experience.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
         title: "Flexible",
         description:
-          "Customize your integrations to fit your unique requirements.",
+          "Add assignment briefs either as a prompt or as a PDF file.",
         icon: "laptop",
       },
       {
         title: "Efficient",
-        description: "Streamline your processes and reducing manual effort.",
+        description:
+          "Streamline your structure and content creation with AI power, reducing manual effort.",
         icon: "search",
       },
       {
         title: "Reliable",
         description:
-          "Rely on our robust infrastructure and comprehensive documentation.",
+          "Use the AI power of Gluglu to generate content that is reliable.",
         icon: "settings",
       },
     ],

@@ -1,33 +1,31 @@
-import { FeaturesConfig, SidebarNavItem, SiteConfig } from "types";
+import { FeaturesSection, SidebarNavItem, SiteConfig } from "types";
 import { env } from "@/env.mjs";
 
 const site_url = env.NEXT_PUBLIC_APP_URL;
 
 export const siteConfig: SiteConfig = {
-  name: "SaaS Starter",
+  name: "Gluglu",
   description:
-    "Get your project off to an explosive start with SaaS Starter! Harness the power of Next.js 14, Prisma, Neon, Auth.js v5, Resend, React Email, Shadcn/ui and Stripe to build your next big thing.",
+    "Get your project off to an explosive start with Gluglu! Harness the power of AI to generate your next project in minutes.",
   url: site_url,
-  ogImage: `${site_url}/_static/og.jpg`,
+  ogImage: `${site_url}/_static/og.jpg`, // TODO: change image
   links: {
-    twitter: "https://twitter.com/miickasmt",
-    github: "https://github.com/mickasmt/next-saas-stripe-starter",
+    twitter: "https://twitter.com/miickasmt", // TODO: change twitter
+    github: "https://github.com/mickasmt/next-saas-stripe-starter", // TODO: change github
   },
-  mailSupport: "support@saas-starter.com",
+  mailSupport: "support@saas-starter.com", // TODO: change support email
 };
 
-export const featuresConfig: FeaturesConfig = {
-  section: {
-    label: "Features",
-    title: "Discover all features.",
-    subtitle:
-      "Harum quae dolore inventore repudiandae? orrupti aut temporibus ariatur.",
-  },
+export const featuresSection: FeaturesSection = {
+  label: "Features",
+  title: "Discover all features.",
+  subtitle:
+    "Take advantage of the many features that GluGlu offers to get your project off to a flying start.",
   card: {
     showIcon: true,
     showTitle: true,
-    linkText: "Read more",
-    linkIcon: "chevronRight",
+    ctaText: "Read more",
+    ctaIcon: "chevronRight",
   },
 };
 

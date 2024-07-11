@@ -6,24 +6,24 @@ export const BLOG_CATEGORIES: {
   {
     title: "News",
     slug: "news",
-    description: "Updates and announcements from Next SaaS Starter.",
+    description: "Updates and announcements from GluGlu.",
   },
   {
     title: "Education",
     slug: "education",
-    description: "Educational content about SaaS management.",
+    description: "Educational content about GluGlu.",
   },
 ];
 
 export const BLOG_AUTHORS = {
-  mickasmt: {
-    name: "mickasmt",
-    image: "/_static/avatars/mickasmt.png",
-    twitter: "miickasmt",
+  gluglu: {
+    name: "gluglu",
+    image: "/_static/avatars/mickasmt.png", // TODO: change image
+    twitter: "gluglu",
   },
-  shadcn: {
-    name: "shadcn",
-    image: "/_static/avatars/shadcn.jpeg",
-    twitter: "shadcn",
+  adrianbucks: {
+    name: "adrianbucks",
+    image: "/_static/avatars/shadcn.jpeg", // TODO: change image
+    twitter: "adrianbucks",
   },
 };
