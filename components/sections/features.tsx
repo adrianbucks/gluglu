@@ -33,7 +33,10 @@ export default function Features() {
               const CardLinkIcon =
                 Icons[featuresSection.card.ctaIcon || "chevronRight"];
               return (
-                <Card key={feature.title}>
+                <Card
+                  key={feature.title}
+                  className="flex flex-col justify-between"
+                >
                   <CardHeader>
                     <CardTitle>
                       {featuresSection.card.showIcon && (
